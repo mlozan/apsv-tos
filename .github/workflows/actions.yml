@@ -83,7 +83,7 @@ jobs:
           push: true
 
           tags: ghcr.io/mlozan/tos:latest
-deploy:
+  deploy:
 
     needs: verify-and-package
 
